@@ -1,0 +1,23 @@
+
+#barra-principal{
+    background-color: #FEDEDC;
+}
+
+#logo {
+    width: 70px;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    color: #1A3B6D;
+    font-weight: bolder;
+}
+
+.carousel-item{
+    height: 90vh;
+}
+
+.carousel-item img{
+    object-fit: cover;
+}
+
