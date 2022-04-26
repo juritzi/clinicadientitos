@@ -1,3 +1,4 @@
+/* ESTILOS DE LA BARRA DE NAVEGACIÓN */
 
 #barra-principal{
     background-color: #FEDEDC;
@@ -19,5 +20,16 @@
 
 .carousel-item img{
     object-fit: cover;
+}
+
+/* ESTILOS DE LAS SECCIONES */
+
+.seccion{
+    height: 90vh;
+    padding: 100px;
+}
+
+.seccion h2{
+    text-align: center;
 }
 
