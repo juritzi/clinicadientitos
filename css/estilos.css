@@ -1,15 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+
+/* FUENTES
+font-family: 'Montserrat', sans-serif;
+*/
+
 /* ESTILOS DE LA BARRA DE NAVEGACIÓN */
+
+html {
+    scroll-padding-top: 4rem;
+}
 
 #barra-principal{
     background-color: #FEDEDC;
     position: relative;
     z-index: 2;
+    font-family: 'Montserrat';
+    font-size: 16px;
     color: #1A3B6D;
 }
 
 #barra-principal-blanca{
     background-color: white;
     box-shadow: 5px 5px 18px #888888;
+    font-family: 'Montserrat';
+    font-size: 16px;
     z-index: 1;
 }
 
@@ -35,10 +50,13 @@
 
 .seccion{
     height: 90vh;
-    padding: 100px;
+    padding: 80px;
 }
 
 .seccion h2{
     text-align: center;
+    font-family: 'Montserrat';
+    font-size: 42px;
+    color: #1A3B6D;
 }
 
