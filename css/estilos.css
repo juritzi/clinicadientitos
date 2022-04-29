@@ -11,6 +11,10 @@ html {
     scroll-padding-top: 4rem;
 }
 
+*{
+    font-family: 'Montserrat';
+}
+
 #barra-principal{
     background-color: #FEDEDC;
     position: relative;
@@ -50,7 +54,7 @@ html {
 
 .seccion{
     height: 90vh;
-    padding: 80px;
+    padding: 60px;
 }
 
 .seccion h2{
@@ -58,5 +62,23 @@ html {
     font-family: 'Montserrat';
     font-size: 42px;
     color: #1A3B6D;
+    padding-bottom: 40px;
 }
 
+/* SECCION DE NOSOTROS */
+
+#nosotros-contenido{
+    display: flex;
+}
+
+#nosotros-imagenes img{
+    border-radius: 10px;
+    width: 666px;
+}
+
+.nosotros-texto{
+    font-size: 16px;
+    color: #1A3B6D;
+    width: 40%;
+    padding-left: 60px;
+}
