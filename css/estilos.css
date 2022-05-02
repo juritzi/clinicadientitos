@@ -39,7 +39,18 @@ html {
 .nav-link{
     text-transform: uppercase;
     color: #1A3B6D;
-    font-weight: bolder;
+    font-weight: 100;
+}
+
+.nav-link:hover{
+    color: #1A3B6D;
+    font-weight: 900;
+}
+
+.nav-link:focus{
+    background-color: #1A3B6D;
+    border-radius: 5px;
+    color: #FEDEDC;
 }
 
 .carousel-item{
@@ -81,4 +92,13 @@ html {
     color: #1A3B6D;
     width: 40%;
     padding-left: 60px;
+}
+
+#footer{
+    padding: 20px;
+    background-color: black;
+    color: #FEDEDC;
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
 }
