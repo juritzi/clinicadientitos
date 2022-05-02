@@ -80,7 +80,7 @@ html {
 #nosotros-contenido{
     display: flex;
     justify-content: center;
-    
+    flex-wrap: wrap;
 }
 
 #nosotros-imagenes img{
@@ -114,6 +114,7 @@ html {
     justify-content: space-around;
     padding: 25px;
     height: 100%;
+    flex-wrap: wrap;
 }
 
 .informacion-contacto{
@@ -158,4 +159,25 @@ html {
     display: flex;
     gap: 25px;
     justify-content: space-around;
+}
+
+#footer img{
+    width: 60%;
+}
+
+#siguenos img{
+    width: 30px;
+    margin-right: 60px;
+}
+
+#tarjetas img{
+    width: 70px;
+}
+
+#siguenos{
+    width: 20%;
+}
+
+@media (max-width: 1200px){
+
 }
