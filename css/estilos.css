@@ -44,7 +44,6 @@ html {
 
 .nav-link:hover{
     color: #1A3B6D;
-    font-style:oblique;
 }
 
 .nav-link:focus{
@@ -80,6 +79,8 @@ html {
 
 #nosotros-contenido{
     display: flex;
+    justify-content: center;
+    
 }
 
 #nosotros-imagenes img{
@@ -92,6 +93,7 @@ html {
     color: #1A3B6D;
     width: 40%;
     padding-left: 60px;
+    align-self: center;
 }
 
 /* SECCION DE CONTACTO */
@@ -110,7 +112,8 @@ html {
     background-color: #FEDEDC;
     display: flex;
     justify-content: space-around;
-    padding: 15px;
+    padding: 25px;
+    height: 100%;
 }
 
 .informacion-contacto{
@@ -132,6 +135,18 @@ html {
     padding: 5px;
     padding-bottom: 15px;
 
+}
+
+#boton-whatsapp{
+    background-color: #25D366;
+    border-color: #25D366;
+    border-radius: 25px;
+    color: white;
+}
+
+#boton-whatsapp img{
+    width: 30px;
+    padding-left: 5px;
 }
 
 /* FOOTER  */
