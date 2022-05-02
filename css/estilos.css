@@ -44,7 +44,7 @@ html {
 
 .nav-link:hover{
     color: #1A3B6D;
-    font-weight: 900;
+    font-style:oblique;
 }
 
 .nav-link:focus{
@@ -71,9 +71,9 @@ html {
 .seccion h2{
     text-align: center;
     font-family: 'Montserrat';
-    font-size: 42px;
+    font-size: 38px;
     color: #1A3B6D;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 /* SECCION DE NOSOTROS */
@@ -96,7 +96,43 @@ html {
 
 /* SECCION DE CONTACTO */
 
+#contacto{
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
+.headliner{
+    text-align: center;
+    color: #1A3B6D;
+}
+
+#container-rosa{
+    background-color: #FEDEDC;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.informacion-contacto{
+    width: 30%;
+}
+
+.parrafo{
+    text-decoration: dashed;
+    font-style: italic;
+}
+
+.parrafo2{
+    margin-left: 30px;
+}
+
+.info{
+    text-align: left;
+    color: #1A3B6D;
+    padding: 5px;
+    padding-bottom: 15px;
+
+}
 
 /* FOOTER  */
 
