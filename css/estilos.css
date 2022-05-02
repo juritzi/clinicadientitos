@@ -114,7 +114,6 @@ html {
     justify-content: space-around;
     padding: 25px;
     height: 100%;
-    flex-wrap: wrap;
 }
 
 .informacion-contacto{
@@ -150,6 +149,12 @@ html {
     padding-left: 5px;
 }
 
+#mapa-iframe{
+    width:600px;
+    height:450px;
+    border:0;
+}
+
 /* FOOTER  */
 
 #footer{
@@ -178,6 +183,59 @@ html {
     width: 20%;
 }
 
-@media (max-width: 1200px){
+
+@media (min-width:811px) and (max-width: 1024px){
+
+    .informacion-contacto{
+        width: 40%;
+    }
+
+    #mapa-iframe{
+        width:400px;
+        height:500px;
+    }
+    
+}
+
+@media (max-width: 810px){
+
+    .seccion{
+        height: fit-content;
+    }
+
+    .nosotros-texto{
+        width: 100%;
+    }
+
+    #nosotros-imagenes img{
+        width: 400px;
+        margin-bottom: 10px;
+    }
+
+    .informacion-contacto{
+        width: 100%;
+    }
+
+    #contacto{
+        padding-bottom: 0px;
+    }
+
+    #container-rosa{
+        flex-wrap: wrap;
+    }
+
+    #mapa-iframe{
+        width:500px;
+        height:400px;
+    }
+
+    #siguenos{
+        width: 60%;
+    }
+
+    #footer{
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
