@@ -6,6 +6,7 @@ window.addEventListener('scroll', () =>{
     let posicionScroll = window.scrollY; 
     if (posicionScroll <= 767){
         botonesDelNavegador.forEach(e => e.classList.remove('active'))
+        botonesDelNavegador[5].classList.add('active');
     } else if (posicionScroll >= 768 && posicionScroll <= 1515){
         botonesDelNavegador.forEach(e => e.classList.remove('active'))
         botonesDelNavegador[6].classList.add('active');
