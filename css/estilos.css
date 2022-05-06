@@ -80,6 +80,7 @@ html {
 
 #nosotros{
     padding: 0px;
+    padding-bottom: 60px;
     height: fit-content;
 }
 
@@ -150,8 +151,32 @@ html {
 
 /* SECCION DE SERVICIOS */
 
-#image-active{
-    background-color: white;
+#servicios{
+    background-color: #FEDEDC;
+}
+
+#container-servicios{
+    padding-top: 50px;
+    display: flex;
+    gap: 4%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.servicio{
+    text-align: center;
+    width: 20%;
+    padding-bottom: 30px;
+}
+
+.servicio img {
+    width: 50%;
+}
+
+.servicio h3{
+    font-size: large;
+    padding: 30px;
+    font-weight:600;
 }
 
 /* SECCION DE CONTACTO */
