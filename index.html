@@ -10,36 +10,9 @@
     <title>Dientitos</title>
 </head>
 <body>
-    <nav id="barra-principal" class="navbar navbar-expand-lg">
+    <nav id="barra-principal-blanca" class="navbar navbar-expand-lg fixed-top mt-3">
         <div class="container">
-            <a class="navbar-brand" href="#"><img id="logo" src="img/logo-negro.svg" alt="Logo de Dientitos"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end me-4" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">Inicio</a>
-                </li>
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="index.html#nosotros">Nosotros</a>
-                </li>
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="index.html#servicios">Nuestros servicios</a>
-                </li>
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="index.html#profesionales">Profesionales</a>
-                </li>
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="index.html#contacto">Contacto</a>
-                </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <nav id="barra-principal-blanca" class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#"><img id="logo" src="img/logo-colores.svg" alt="Logo de Dientitos"></a>
+            <a class="navbar-brand ms-5" href="#"><img id="logo" src="img/logo-colores.svg" alt="Logo de Dientitos"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -86,12 +59,12 @@
           </div>
     </section>
     <section id="nosotros" class="seccion">
-        <h2 class="header-seccion">NOSOTROS</h2>
         <div id="nosotros-contenido">
             <div id="nosotros-imagenes">
                 <img src="img/dentista-1.jpeg" alt="...">
             </div>
             <div class="nosotros-texto">
+                <h2 id="header-nosotros" class="header-seccion">NOSOTROS</h2>
                 <p>
                     Dientitos es una dental creada para el cuidado, manejo y atención bucodental de pacientes pediátricos y con capacidades diferentes.
                 </p>
@@ -122,16 +95,22 @@
         <div id="container-rosa">
             <div class="informacion-contacto">
                 <div class="info whatsapp">
-                    <p class="parrafo">Para reservar citas o consultas online contáctanos por Whatsapp</p>
+                    <p class="parrafo">Para turnos y consultas</p>
                     <a id="boton-whatsapp" class="btn btn-light parrafo2" target="_blank" href="https://wa.me/525526968682?text=Hola%20Me%20gustaría%20contactarme%20con%20la%20Clínica%20Dientitos.">Escribe al WhatsApp <img src="img/logo-whatsapp.png" alt=""> </a>
                 </div>
                 <div class="info urgencias">
                     <p class="parrafo">Para urgencias contáctanos al:</p>
-                    <p class="parrafo2">55 26968682</p>
+                    <div class="container-info-de-contacto">
+                        <img src="img/iconos/Icon awesome-phone.svg" alt="Teléfono">
+                        <p class="parrafo2">+52 55 26968682</p>
+                    </div>
                 </div>
                 <div class="info ubicacion">
                     <p class="parrafo">Puedes encontrarnos en:</p>
-                    <p class="parrafo2">Av. 16 de Septiembre 111. Oficinas México. Edificio 1, despacho 102. Cuautitlán, México.</p>
+                    <div class="container-info-de-contacto">
+                        <img src="img/iconos/Icon material-location-on.svg" alt="Dirección icono">
+                        <p class="parrafo2">Av. 16 de Septiembre 111. Cuautitlán, México. Oficinas México. Piso 1, despacho 102.</p>
+                    </div>
                 </div>
                 <div class="info mail">
                     <p class="parrafo">Email:</p>
