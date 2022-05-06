@@ -21,7 +21,7 @@ html {
     font-size: 16px;
     z-index: 1;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(5px);
 }
 
@@ -53,7 +53,7 @@ html {
 }
 
 .carousel-item{
-    height: 90vh;
+    height: 100vh;
 }
 
 .carousel-item img{
@@ -63,7 +63,7 @@ html {
 /* ESTILOS DE LAS SECCIONES */
 
 .seccion{
-    height: 90vh;
+    height: 100vh;
     padding: 60px;
 }
 
@@ -85,7 +85,8 @@ html {
 
 #header-nosotros{
     color: #C3ECEC;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 #nosotros-contenido{
@@ -107,10 +108,15 @@ html {
     background-color: #1A3B6D;
     font-size: 16px;
     color: #C3ECEC;
-    padding: 60px;
+    padding: 50px;
     width: 45%;
-    height: 100%;
-    align-self: center;
+    align-self: stretch;
+}
+
+.nosotros-texto p{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 10px;
 }
 
 /* SECCION DE SERVICIOS */
