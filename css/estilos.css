@@ -25,6 +25,18 @@ html {
     backdrop-filter: blur(5px);
 }
 
+.navbar-light .navbar-nav .nav-link{
+    color: #1A3B6D;
+}
+
+.nav-link:active{
+    color: #1A3B6D;
+}
+
+.nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: #FEDEDC !important
+}
+
 #logo {
     width: 70px;
 }
@@ -99,6 +111,7 @@ html {
     align-items: stretch;
     background-image: url("../img/dentista-1.jpeg");
     background-size: cover;
+    background-position: center;
 }
 
 
@@ -152,7 +165,7 @@ html {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 40px;
-    width: 20%;
+    width: 30%;
     font-size: 16px;
     color: #1A3B6D;
     text-align: center;
@@ -280,6 +293,10 @@ html {
     width: 60%;
 }
 
+#turno img{
+    width: 0px;
+}
+
 #siguenos img{
     width: 30px;
     margin-right: 60px;
@@ -299,22 +316,92 @@ html {
     .informacion-contacto{
         width: 40%;
     }
+
+    #nosotros{
+        display: inline-block;
+    }
+
+    #testimonios-container{
+        flex-wrap: wrap;
+    }
+
+    #container-servicios{
+        flex-wrap: wrap;
+    }
+
+    .servicio{
+        width: 40%;
+    }
+    
+    .servicio img {
+        width: 60%;
+    }
     
 }
 
-@media (max-width: 810px){
+@media (max-width: 460px){
 
     .seccion{
+        display: inline-block;
         height: fit-content;
     }
 
-    .nosotros-texto{
+    .seccion h2{
+        padding-bottom: 10px;
+    }
+    .headliner{
+        padding-bottom: 10px;
+    }
+
+    #header-nosotros{
+        padding-top: 1px;
+        padding-bottom: 15px;
+    }
+
+    .nosotros-texto p{
+        text-align: center;
+        width: 90%;
+    }
+
+    #nosotros-contenido{
+        display: inline-block;
+    }
+
+    #nosotros-imagenes{
+        height: 300px;
+    }
+
+    #testimonios-container{
+        display: inline-block;
+        padding-top: 10px;
+    }
+
+
+    .testimonio{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .nosotros-texto, #nosotros-imagenes{
         width: 100%;
     }
 
     #nosotros-imagenes img{
         width: 400px;
         margin-bottom: 10px;
+    }
+    
+    #container-servicios{
+        display: inline-block;
+    }
+    
+    .servicio{
+        width: 100%;
+    }
+    
+    .servicio img {
+        width: 80%;
     }
 
     .informacion-contacto{
@@ -340,6 +427,22 @@ html {
     #footer{
         flex-direction: column;
         align-items: center;
+    }
+
+    #turno img{
+        width: 30%;
+    }
+
+    #turno{
+        display: flex;
+    }
+
+    #siguenos{
+        width: 80%;
+    }
+
+    #logo-footer img{
+        width: 0px;
     }
 
 }
