@@ -23,3 +23,15 @@ window.addEventListener('scroll', () =>{
         botonesDelNavegador[4].classList.add('active')
     } 
 })
+
+// Para animar al botón del hadita
+
+const botonDeWhatsApp = document.getElementById('boton-whatsapp-hadita');
+
+hadita.addEventListener('mouseover', () =>{
+    botonDeWhatsApp.style.visibility = 'visible';  
+});
+
+hadita.addEventListener('mouseleave', () =>{
+    botonDeWhatsApp.style.visibility = 'hidden';  
+})

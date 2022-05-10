@@ -255,14 +255,23 @@ html {
 
 }
 
-#boton-whatsapp{
+#boton-whatsapp, #boton-whatsapp-hadita{
     background-color: #25D366;
     border-color: #25D366;
     border-radius: 25px;
     color: white;
 }
 
-#boton-whatsapp img{
+#boton-whatsapp-hadita{
+    font-size: 12px;
+    width: max-content;
+    position: relative;
+    right: 90px;
+    visibility: hidden;
+}
+
+
+#boton-whatsapp img, #boton-whatsapp-hadita img{
     width: 30px;
     padding-left: 5px;
 }
