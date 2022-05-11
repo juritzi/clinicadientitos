@@ -21,6 +21,7 @@ window.addEventListener('scroll', () =>{
     } else if (posicionScroll >= secciones[3].offsetTop -100){
         botonesDelNavegador.forEach(e => e.classList.remove('active'))
         botonesDelNavegador[4].classList.add('active')
+        hadita.style.visibility = 'hidden';  
     } 
 })
 
@@ -35,3 +36,11 @@ hadita.addEventListener('mouseover', () =>{
 hadita.addEventListener('mouseleave', () =>{
     botonDeWhatsApp.style.visibility = 'hidden';  
 })
+
+hadita.addEventListener('click', () =>{
+    if (botonDeWhatsApp.style.visibility = 'visible'){
+        botonDeWhatsApp.style.visibility = 'hidden';  
+    } else {
+        botonDeWhatsApp.style.visibility = 'visible';  
+    }
+});
