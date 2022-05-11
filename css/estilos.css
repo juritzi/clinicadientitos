@@ -82,7 +82,6 @@ html {
 .seccion h2{
     text-align: center;
     font-family: 'Montserrat';
-    font-size: 38px;
     color: #1A3B6D;
     padding-bottom: 30px;
     font-weight: 600;
@@ -113,8 +112,6 @@ html {
     background-size: cover;
     background-position: center;
 }
-
-
 
 .nosotros-texto{
     background-color: #1A3B6D;
@@ -287,6 +284,12 @@ html {
     border:0;
 }
 
+/*SECCION DE PROFESIONALES */
+
+#profesionales{
+    width: 100%;
+}
+
 /* FOOTER  */
 
 #footer{
@@ -396,6 +399,10 @@ html {
         width: 100%;
     }
 
+    .nosotros-texto p{
+        width: 100%;
+    }
+
     #nosotros-imagenes img{
         width: 400px;
         margin-bottom: 10px;
@@ -452,6 +459,10 @@ html {
 
     #logo-footer img{
         width: 0px;
+    }
+
+    #container-hadita{
+        width: 30%;
     }
 
 }
