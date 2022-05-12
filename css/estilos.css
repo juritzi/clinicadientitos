@@ -111,6 +111,18 @@ html {
     background-image: url("../img/dentista-1.jpeg");
     background-size: cover;
     background-position: center;
+    animation: changeBg 8s infinite
+}
+
+@keyframes changeBg{
+   0%  {background-image: url("../img/dentista-1.png");}
+   20%  {background-image: url("../img/dentista-1.png");}
+   40% {background-image: url("../img/dentista-2.png");}
+   60% {background-image: url("../img/dentista-2.png");}
+   80% {background-image: url("../img/dentista-3.png");}
+   95% {background-image: url("../img/dentista-3.png");}
+   100%  {background-image: url("../img/dentista-1.png");}
+
 }
 
 .nosotros-texto{
