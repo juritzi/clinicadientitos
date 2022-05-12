@@ -173,6 +173,14 @@ html {
     font-weight: bold;
 }
 
+.icono-testimonio{
+    width: 15%;
+    margin: auto;
+    margin-top: -110px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
 /* SECCION DE SERVICIOS */
 
 #servicios{
@@ -337,6 +345,14 @@ html {
         flex-wrap: wrap;
     }
 
+    .icono-testimonio{
+        width: 25%;
+        margin: auto;
+        margin-top: -110px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+
     #container-servicios{
         flex-wrap: wrap;
     }
@@ -351,7 +367,7 @@ html {
     
 }
 
-@media (max-width: 460px){
+@media (max-width: 560px){
 
     .seccion{
         display: inline-block;
@@ -392,7 +408,7 @@ html {
     .testimonio{
         width: 90%;
         margin: auto;
-        margin-bottom: 10px;
+        margin-top: 50px;
     }
 
     .nosotros-texto, #nosotros-imagenes{
