@@ -72,6 +72,27 @@ html {
     object-fit: cover;
 }
 
+#fontcarousel1{
+    font-family: 'DKLemonYellowSun';
+    src: url('fonts/DKLemonYellowSun.otf') format('otf');
+    
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+}
+#fontcarousel3{
+    font-family: 'DKLemonYellowSun';
+    src: url('fonts/DKLemonYellowSun.otf') format('otf');
+    
+    font-weight: bold;
+
+}
+#divdh{
+    display: flex;
+    justify-content:left;
+}
+
+
 /* ESTILOS DE LAS SECCIONES */
 
 .seccion{
@@ -311,10 +332,12 @@ html {
 
 #footer img{
     width: 60%;
+    
 }
 
 #turno img{
     width: 0px;
+    
 }
 
 #siguenos img{
