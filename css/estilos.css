@@ -207,7 +207,7 @@ html {
 }
 
 .servicio h3{
-    font-size: large;
+    font-size: small;
     padding: 30px;
     font-weight:600;
 }
@@ -302,6 +302,8 @@ html {
 
 #footer{
     padding: 20px;
+    padding-right: 90px;
+    padding-left: 90px;
     background-color:#1A3B6D;
     color: #FEDEDC;
     display: flex;
