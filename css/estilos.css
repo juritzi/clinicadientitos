@@ -73,19 +73,24 @@ html {
 }
 
 #fontcarousel1{
-    font-family: 'DKLemonYellowSun';
-    src: url('fonts/DKLemonYellowSun.otf') format('otf');
-    
-    font-weight: bold;
+    font-family: 'DKLemonYellowSun';   
     display: flex;
     justify-content: start;
 }
+
+@font-face {
+    font-family: 'DKLemonYellowSun' ;
+    src: url('fonts/DKLemonYellowSun.otf');
+}
+
+
+#fontcarousel2{
+    font-family: 'DKLemonYellowSun';
+    
+}
 #fontcarousel3{
     font-family: 'DKLemonYellowSun';
-    src: url('fonts/DKLemonYellowSun.otf') format('otf');
     
-    font-weight: bold;
-
 }
 #divdh{
     display: flex;
