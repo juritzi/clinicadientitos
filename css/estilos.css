@@ -72,6 +72,20 @@ html {
     object-fit: cover;
 }
 
+
+#myCarousel-indicators li{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+
+.carousel-indicators li{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+
+
 #fontcarousel1{
     font-family: 'DKLemonYellowSun';   
     display: flex;
@@ -90,12 +104,12 @@ html {
 }
 #fontcarousel3{
     font-family: 'DKLemonYellowSun';
-    
-}
-#divdh{
     display: flex;
-    justify-content:left;
+    justify-content: flex-end;
 }
+/* #divdh{
+    align-items:flex-end;
+} */
 
 
 /* ESTILOS DE LAS SECCIONES */
