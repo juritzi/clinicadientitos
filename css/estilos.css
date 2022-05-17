@@ -72,6 +72,46 @@ html {
     object-fit: cover;
 }
 
+
+#myCarousel-indicators li{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+
+.carousel-indicators li{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+
+
+#fontcarousel1{
+    font-family: 'DKLemonYellowSun';   
+    display: flex;
+    justify-content: start;
+}
+
+@font-face {
+    font-family: 'DKLemonYellowSun' ;
+    src: url('fonts/DKLemonYellowSun.otf');
+}
+
+
+#fontcarousel2{
+    font-family: 'DKLemonYellowSun';
+    
+}
+#fontcarousel3{
+    font-family: 'DKLemonYellowSun';
+    display: flex;
+    justify-content: flex-end;
+}
+/* #divdh{
+    align-items:flex-end;
+} */
+
+
 /* ESTILOS DE LAS SECCIONES */
 
 .seccion{
@@ -298,6 +338,35 @@ html {
     width: 100%;
 }
 
+.profesionales_img{
+    display: flex;
+    justify-content:center;
+    padding: 50px;
+}
+
+/* #imgdoctoraI :hover{
+    background-color: #FEDEDC;
+    border-radius: 10px , 10px , 0px , 0px;
+} */
+
+#imgdoctoraI h5{
+    font-size: 20px;
+    background-color: #FEDEDC;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#imgdoctora h5{
+    font-size: 20px;
+    background-color: #FEDEDC;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 10px;
+}
+    
+
+
 /* FOOTER  */
 
 #footer{
@@ -313,10 +382,12 @@ html {
 
 #footer img{
     width: 60%;
+    
 }
 
 #turno img{
     width: 0px;
+    
 }
 
 #siguenos img{
