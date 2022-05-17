@@ -342,34 +342,63 @@ html {
     display: flex;
     justify-content:center;
     padding: 50px;
+    align-items: center;
+    
 }
 
-/* #imgdoctoraI :hover{
+#imgdoctoraI{
     background-color: #FEDEDC;
-    border-radius: 10px , 10px , 0px , 0px;
+    background-position:2cm bottom;/*border-radius: 10px , 10px , 0px , 0px;*/
+    height: 30%;
+}
+
+/* #imgdoctoraI p{
+    /*visibility: hidden;
 } */
 
-#imgdoctoraI h5{
-    font-size: 20px;
-    background-color: #FEDEDC;
-    border-radius: 15px;
-    padding: 10px;
-    margin-right: 10px;
+#imgdoctoraI :hover{
+    animation-name: agrandar;
+    animation-duration: 4s;
+    
 }
 
-#imgdoctora h5{
+/* #imgdoctoraI h5{
     font-size: 20px;
     background-color: #FEDEDC;
     border-radius: 15px;
     padding: 10px;
-    margin-left: 10px;
+    margin-right: 10px; */
+    /* height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    background-color: #FEDEDC;
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count:initial;
+    animation-fill-mode: none;
+    animation-play-state:paused; 
+}*/
+
+/* animacion */
+@keyframes agrandar {
+    0% {
+
+    }
+    100% {
+        transform: scale(1.5);
+        border-radius: 10px , 10px , 0px , 0px;
+        background-color: #FEDEDC;
+    }
 }
-    
+
 
 
 /* FOOTER  */
 
-#footer{
+#footer {
     padding: 20px;
     background-color:#1A3B6D;
     color: #FEDEDC;
