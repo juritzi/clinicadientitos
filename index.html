@@ -38,24 +38,42 @@
         </div>
     </nav>
     <section id="hero">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/niño.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/dentista.jpg" class="d-block w-100" alt="...">
-                </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators" id="myCarousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/carousel/1niño.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 id="fontcarousel1">CREANDO SONRISAS SANAS</h2>
+                </div>
+                
+              </div>
+              <div class="carousel-item">
+                <img src="img/carousel/2mujer.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 id="fontcarousel2">CUIDANDO A TODA LA FAMILIA</h2>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/carousel/3dientes.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 id="fontcarousel3">ATENCIÓN INTEGRAL PREVENTIVA</h2>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-          </div>
+          </div> 
           <div id="container-hadita">
             <a id="boton-whatsapp-hadita" class="btn btn-light" target="_blank" href="https://wa.me/525526968682?text=Hola%20Me%20gustaría%20recibir%20tips%20sobre%20cómo%20mantener%20mis%20dientes%20sanos.">Escribe al WhatsApp <img src="img/logo-whatsapp.png" alt=""> </a>
             <img  id="hadita" src="img/hadita-dientitos.svg" alt="">
@@ -153,6 +171,20 @@
     </section>
     <section id="profesionales" class="seccion">
         <h2 class="header-seccion">PROFESIONALES</h2>
+        <p class="headliner">En <strong>Dientitos</strong> tenemos como prioridad dar seguridad, confort y salud bucal a todas las familias, 
+            creando sonrisas sanas hábitos saludables. Por eso contamos con un <strong>equipo de profesionales</strong> 
+            especializados en distintas áreas, que realizan su trabajo con equipamiento odontológico adecuado de última tecnologia.</p>
+    <div class="profesionales_img">
+        <div id="imgdoctoraI">
+            <img src="img/profesionales/doctora.png" width="250px" alt="Doctora">
+            <h5>DRA ITZEL ESTRADA LOPEZ</h5>
+        </div>
+        <div id="imgdoctora">
+            <img src="img/profesionales/doctora.png"  width="250px" alt="Doctora">
+            <h5>DRA MARIA EUGENIA ZARZA</h5>
+        </div>
+    </div>      
+        
     </section>
     <section id="contacto" class="seccion">
         <h2 class="header-seccion">CONTACTO</h2>
@@ -213,7 +245,7 @@
             </div>
         </div>
     </footer>
-    <script src="js/main.js"></script>
+    <!--<script src="js/main.js"></script>-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
