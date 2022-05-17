@@ -73,23 +73,16 @@ html {
 }
 
 
-#myCarousel-indicators li{
-    border-radius: 50%;
-    width: 12px;
-    height: 12px;
+#myCarousel-indicators button{
+    border-radius: 50% !important;
+    width: 12px !important;
+    height: 12px !important;
+    background-color: transparent;
+    border: 2px solid #FEDEDC;
 }
 
-.carousel-indicators li{
-    border-radius: 50%;
-    width: 12px;
-    height: 12px;
-}
-
-
-#fontcarousel1{
-    font-family: 'DKLemonYellowSun';   
-    display: flex;
-    justify-content: start;
+.carousel-indicators .active{
+    background-color: #FEDEDC !important;
 }
 
 @font-face {
@@ -98,18 +91,30 @@ html {
 }
 
 
+#fontcarousel1{
+    font-family: 'DKLemonYellowSun';   
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    align-content: center;
+}
+
 #fontcarousel2{
     font-family: 'DKLemonYellowSun';
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    color: #FEDEDC;
+    align-content: center;
     
 }
 #fontcarousel3{
     font-family: 'DKLemonYellowSun';
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    align-content: center;
+    color: black;
 }
-/* #divdh{
-    align-items:flex-end;
-} */
 
 
 /* ESTILOS DE LAS SECCIONES */
@@ -247,7 +252,7 @@ html {
 }
 
 .servicio h3{
-    font-size: large;
+    font-size: small;
     padding: 30px;
     font-weight:600;
 }
@@ -400,6 +405,8 @@ html {
 
 #footer {
     padding: 20px;
+    padding-right: 90px;
+    padding-left: 90px;
     background-color:#1A3B6D;
     color: #FEDEDC;
     display: flex;
