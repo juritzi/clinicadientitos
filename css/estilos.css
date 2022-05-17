@@ -73,16 +73,23 @@ html {
 }
 
 
-#myCarousel-indicators button{
-    border-radius: 50% !important;
-    width: 12px !important;
-    height: 12px !important;
-    background-color: transparent;
-    border: 2px solid #FEDEDC;
+#myCarousel-indicators li{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
 }
 
-.carousel-indicators .active{
-    background-color: #FEDEDC !important;
+.carousel-indicators li{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+}
+
+
+#fontcarousel1{
+    font-family: 'DKLemonYellowSun';   
+    display: flex;
+    justify-content: start;
 }
 
 @font-face {
@@ -91,30 +98,18 @@ html {
 }
 
 
-#fontcarousel1{
-    font-family: 'DKLemonYellowSun';   
-    display: flex;
-    justify-content: flex-end;
-    color: black;
-    align-content: center;
-}
-
 #fontcarousel2{
     font-family: 'DKLemonYellowSun';
-    display: flex;
-    justify-content: flex-start;
-    align-content: center;
-    color: #FEDEDC;
-    align-content: center;
     
 }
 #fontcarousel3{
     font-family: 'DKLemonYellowSun';
     display: flex;
-    justify-content: flex-start;
-    align-content: center;
-    color: black;
+    justify-content: flex-end;
 }
+/* #divdh{
+    align-items:flex-end;
+} */
 
 
 /* ESTILOS DE LAS SECCIONES */
@@ -252,7 +247,7 @@ html {
 }
 
 .servicio h3{
-    font-size: small;
+    font-size: large;
     padding: 30px;
     font-weight:600;
 }
@@ -351,11 +346,10 @@ html {
     
 }
 
-#imgdoctoraI{
-    background-color: #FEDEDC;
-    background-position:2cm bottom;/*border-radius: 10px , 10px , 0px , 0px;*/
-    height: 30%;
-}
+/* #imgdoctoraI{
+    /*background-color: #FEDEDC;*/
+    /*border-radius: 10px , 10px , 0px , 0px;
+} */
 
 /* #imgdoctoraI p{
     /*visibility: hidden;
@@ -363,8 +357,9 @@ html {
 
 #imgdoctoraI :hover{
     animation-name: agrandar;
-    animation-duration: 4s;
     
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
 }
 
 /* #imgdoctoraI h5{
@@ -393,9 +388,11 @@ html {
 
     }
     100% {
-        transform: scale(1.5);
+        /*transform: scale(1.5);*/
         border-radius: 10px , 10px , 0px , 0px;
         background-color: #FEDEDC;
+        width: 50%;
+        
     }
 }
 
@@ -405,8 +402,6 @@ html {
 
 #footer {
     padding: 20px;
-    padding-right: 90px;
-    padding-left: 90px;
     background-color:#1A3B6D;
     color: #FEDEDC;
     display: flex;
