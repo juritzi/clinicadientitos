@@ -346,35 +346,131 @@ html {
 
 #profesionales{
     width: 100%;
+    height: 100%;
 }
 
 .profesionales_img{
     display: flex;
-    justify-content:center;
-    padding: 50px;
 }
 
-/* #imgdoctoraI :hover{
-    background-color: #FEDEDC;
-    border-radius: 10px , 10px , 0px , 0px;
-} */
-
-#imgdoctoraI h5{
-    font-size: 20px;
-    background-color: #FEDEDC;
-    border-radius: 15px;
-    padding: 10px;
-    margin-right: 10px;
+.profesionales_img img{
+    width: 360px;
+    padding-bottom: 10px;
+    
 }
 
-#imgdoctora h5{
-    font-size: 20px;
-    background-color: #FEDEDC;
-    border-radius: 15px;
+#doctora1-nombre{
+    background-color:#F9CAC7;
     padding: 10px;
-    margin-left: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+
+#doctora2-nombre{
+    background-color:#42BABFD9;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+
+@keyframes transformar-texto {
+    50%{
+        position: relative;
+        bottom: 0px
+    }
+    100%{
+        background-color: transparent;
+        position: relative;
+        bottom: 20px;
+    }
+}
+
+@keyframes disminuir-imagen {
+    100%{
+        width: 200px;
+    }
+    
+}
+
+.profesional-perfil:hover #doctora1-nombre{
+    animation-name: transformar-texto;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.profesional-perfil:hover #doctora2-nombre{
+    animation-name: transformar-texto;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.profesional-perfil:hover #doctora1{
+    animation-name: disminuir-imagen;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.profesional-perfil:hover #doctora2{
+    animation-name: disminuir-imagen;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#imgdoctora1:hover{
+    animation-name: agrandar;
+    animation-duration: 0.7s; 
+    animation-fill-mode:forwards;    
+}
+
+#imgdoctora2:hover{
+    animation-name: agrandar2;
+    animation-duration: 0.7s; 
+    animation-fill-mode:forwards;    
+}
+
+
+.profesional-perfil{
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.profesional-texto{
+    text-align: center;
+    visibility: hidden;
+    padding: 15px;
+    font-size: 0px;
+}
+
+
+/* animacion */
+@keyframes agrandar {
+    0% {
+
+    }
+    100% {
+        /*transform: scale(1.5);*/
+        border-radius: 40% 40% 5% 5%;
+        background-color: #FEDEDC;        
+    }
 }
     
+@keyframes agrandar2 {
+    0% {
+
+    }
+    100% {
+        /*transform: scale(1.5);*/
+        border-radius: 40% 40% 5% 5%;
+        background-color: #C3ECEC;        
+    }
+}
 
 
 /* FOOTER  */
@@ -447,6 +543,7 @@ html {
     .servicio img {
         width: 60%;
     }
+
     .carousel-item img{
         height: inherit;
     }
@@ -567,10 +664,26 @@ html {
         width: 30%;
     }
 
-    
+
     .carousel-item img{
         height: inherit;
     }
 
-    
+    .profesionales_img{
+        display: block;
+    }
+
+    .profesionales_img img{
+        width: 250px;
+    }
+
+    .profesional-perfil{
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+
+
 }
