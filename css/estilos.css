@@ -724,7 +724,8 @@ html {
 
 }
 
-@media (min-width: 1360px){
+
+@media (min-width: 1660px){
     #nosotros{
         height: 80vh;
     }
