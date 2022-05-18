@@ -351,17 +351,75 @@ html {
 .profesionales_img{
     display: flex;
     justify-content:center;
-    
-    align-items: center;
-    
+    align-content: center;
+}
+
+#doctora1-nombre{
+    background-color:#F9CAC7;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+
+#doctora2-nombre{
+    background-color:#42BABFD9;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+
+@keyframes transformar-texto {
+    50%{
+        position: relative;
+        bottom: 0px
+    }
+    100%{
+        background-color: transparent;
+        position: relative;
+        bottom: 20px;
+    }
+}
+
+.profesional-perfil:hover #doctora1-nombre{
+    animation-name: transformar-texto;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.profesional-perfil:hover #doctora2-nombre{
+    animation-name: transformar-texto;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+#imgdoctora1:hover{
+    animation-name: agrandar;
+    animation-duration: 0.7s; 
+    animation-fill-mode:forwards;    
+}
+
+#imgdoctora2:hover{
+    animation-name: agrandar2;
+    animation-duration: 0.7s; 
+    animation-fill-mode:forwards;    
 }
 
 
+.profesional-perfil{
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
 
 
-#imgdoctoraI:hover{
-    animation-name: agrandar ;
-    animation-duration: 0.7s; 
+.profesional-texto{
+    text-align: center;
+    visibility: hidden;
     
 }
 
@@ -373,14 +431,25 @@ html {
     }
     100% {
         /*transform: scale(1.5);*/
-        border-radius: 120px 120px 0px 0px;
+        border-radius: 45% 45% 0px 0px;
         background-color: #FEDEDC;
-        
-        width: 30%;
+        width: 40%;
         
     }
 }
     
+@keyframes agrandar2 {
+    0% {
+
+    }
+    100% {
+        /*transform: scale(1.5);*/
+        border-radius: 45% 45% 0px 0px;
+        background-color: #C3ECEC;
+        width: 40%;
+        
+    }
+}
 
 
 /* FOOTER  */

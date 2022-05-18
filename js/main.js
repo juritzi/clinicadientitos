@@ -44,3 +44,34 @@ hadita.addEventListener('click', () =>{
         botonDeWhatsApp.style.visibility = 'visible';  
     }
 });
+
+// Animacion para secciond e profesionales
+const profesionalImagenContainer = document.querySelectorAll('.profesional-perfil');
+const profesionalImagen = document.querySelectorAll('.profesional-perfil-imagen');
+const profesionalImagenTexto = document.querySelectorAll('.profesional-texto');
+
+
+profesionalImagen[0].addEventListener('mouseover', () =>{
+    profesionalImagenTexto[0].style.visibility= 'visible';
+    profesionalImagenTexto[1].style.visibility= 'visible';
+
+})
+
+profesionalImagen[1].addEventListener('mouseover', () =>{
+    profesionalImagenTexto[2].style.visibility= 'visible';
+    profesionalImagenTexto[3].style.visibility= 'visible';
+
+})
+
+profesionalImagenContainer[0].addEventListener('mouseleave', () =>{
+    profesionalImagenTexto[0].style.visibility= 'hidden';
+    profesionalImagenTexto[1].style.visibility= 'hidden';
+
+})
+
+profesionalImagenContainer[1].addEventListener('mouseleave', () =>{
+    profesionalImagenTexto[2].style.visibility= 'hidden';
+    profesionalImagenTexto[3].style.visibility= 'hidden';
+
+})
+
