@@ -464,6 +464,9 @@ html {
     .servicio img {
         width: 60%;
     }
+    .carousel-item img{
+        height: inherit;
+    }
     
 }
 
@@ -581,4 +584,10 @@ html {
         width: 30%;
     }
 
+    
+    .carousel-item img{
+        height: inherit;
+    }
+
+    
 }
