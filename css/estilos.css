@@ -346,12 +346,18 @@ html {
 
 #profesionales{
     width: 100%;
+    height: 100%;
 }
 
 .profesionales_img{
     display: flex;
     justify-content:center;
     align-content: center;
+}
+
+.profesionales_img img{
+    width: 360px;
+    padding-bottom: 10px;
 }
 
 #doctora1-nombre{
@@ -384,6 +390,13 @@ html {
     }
 }
 
+@keyframes disminuir-imagen {
+    100%{
+        width: 200px;
+    }
+    
+}
+
 .profesional-perfil:hover #doctora1-nombre{
     animation-name: transformar-texto;
     animation-duration: 0.5s;
@@ -393,6 +406,18 @@ html {
 .profesional-perfil:hover #doctora2-nombre{
     animation-name: transformar-texto;
     animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.profesional-perfil:hover #doctora1{
+    animation-name: disminuir-imagen;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.profesional-perfil:hover #doctora2{
+    animation-name: disminuir-imagen;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
@@ -410,7 +435,7 @@ html {
 
 
 .profesional-perfil{
-    width: 40%;
+    width: 30%;
     margin: auto;
     padding: 10px;
     text-align: center;
@@ -420,6 +445,7 @@ html {
 .profesional-texto{
     text-align: center;
     visibility: hidden;
+    padding: 15px;
     
 }
 
@@ -431,10 +457,8 @@ html {
     }
     100% {
         /*transform: scale(1.5);*/
-        border-radius: 45% 45% 0px 0px;
-        background-color: #FEDEDC;
-        width: 40%;
-        
+        border-radius: 40% 40% 5% 5%;
+        background-color: #FEDEDC;        
     }
 }
     
@@ -444,10 +468,8 @@ html {
     }
     100% {
         /*transform: scale(1.5);*/
-        border-radius: 45% 45% 0px 0px;
-        background-color: #C3ECEC;
-        width: 40%;
-        
+        border-radius: 40% 40% 5% 5%;
+        background-color: #C3ECEC;        
     }
 }
 
