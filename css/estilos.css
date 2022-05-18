@@ -587,6 +587,9 @@ html {
 
 @media (max-width: 560px){
 
+    .navbar-brand{
+        margin-left: 10px !important;
+    }
     .seccion{
         display: inline-block;
         height: fit-content;

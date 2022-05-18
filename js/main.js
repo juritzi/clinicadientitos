@@ -51,7 +51,7 @@ const profesionalImagen = document.querySelectorAll('.profesional-perfil-imagen'
 const profesionalImagenTexto = document.querySelectorAll('.profesional-texto');
 
 
-profesionalImagen[0].addEventListener('mouseover', () =>{
+profesionalImagenContainer[0].addEventListener('mouseover', () =>{
     profesionalImagenTexto[0].style.visibility= 'visible';
     profesionalImagenTexto[0].style.fontSize= 'large';
     profesionalImagenTexto[1].style.visibility= 'visible';
@@ -60,7 +60,7 @@ profesionalImagen[0].addEventListener('mouseover', () =>{
 
 })
 
-profesionalImagen[1].addEventListener('mouseover', () =>{
+profesionalImagenContainer[1].addEventListener('mouseover', () =>{
     profesionalImagenTexto[2].style.visibility= 'visible';
     profesionalImagenTexto[2].style.fontSize= 'large';
     profesionalImagenTexto[3].style.visibility= 'visible';
