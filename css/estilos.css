@@ -359,6 +359,7 @@ html {
 #profesionales{
     width: 100%;
     height: 100%;
+    padding-bottom: 0px;
 }
 
 .profesionales_img{
@@ -366,7 +367,7 @@ html {
 }
 
 .profesionales_img img{
-    width: 360px;
+    width: 350px;
     padding-bottom: 10px;
     
 }
@@ -378,6 +379,7 @@ html {
     width: fit-content;
     text-align: center;
     margin: auto;
+    margin-top: 10%;
 }
 
 #doctora2-nombre{
@@ -387,6 +389,7 @@ html {
     width: fit-content;
     text-align: center;
     margin: auto;
+    margin-top: 10%;
 }
 
 @keyframes transformar-texto {
@@ -559,6 +562,16 @@ html {
     .carousel-item img{
         height: inherit;
     }
+    .profesionales_img img{
+        width: 250px;
+    }
+
+    .profesional-perfil{
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+    }
     
 }
 
@@ -656,16 +669,16 @@ html {
         align-items: center;
     }
 
+    #turno, #siguenos, #tarjetas{
+        width: 400px;
+    }
+
     #turno img{
         width: 30%;
     }
 
     #turno{
         display: flex;
-    }
-
-    #siguenos{
-        width: 80%;
     }
 
     #logo-footer img{
