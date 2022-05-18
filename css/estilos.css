@@ -351,9 +351,21 @@ html {
 .profesionales_img{
     display: flex;
     justify-content:center;
+<<<<<<< Updated upstream
     padding: 50px;
+=======
+    
+    align-items: center;
+    
+>>>>>>> Stashed changes
 }
+/* 
+ #imgdoctoraI{
+    display: flex;
+    justify-content:center;
+}  */
 
+<<<<<<< Updated upstream
 /* #imgdoctoraI :hover{
     background-color: #FEDEDC;
     border-radius: 10px , 10px , 0px , 0px;
@@ -373,6 +385,28 @@ html {
     border-radius: 15px;
     padding: 10px;
     margin-left: 10px;
+=======
+
+#imgdoctoraI :hover{
+    animation-name: agrandar ;
+    animation-duration: 0.7s; 
+    
+}
+
+
+/* animacion */
+@keyframes agrandar {
+    0% {
+
+    }
+    100% {
+        /*transform: scale(1.5);*/
+        border-radius: 120px 120px 0px 0px;
+        background-color: #FEDEDC;
+        padding: 50px;
+        
+    }
+>>>>>>> Stashed changes
 }
     
 
@@ -446,9 +480,6 @@ html {
     
     .servicio img {
         width: 60%;
-    }
-    .carousel-item img{
-        height: inherit;
     }
     
 }
@@ -567,10 +598,4 @@ html {
         width: 30%;
     }
 
-    
-    .carousel-item img{
-        height: inherit;
-    }
-
-    
 }
