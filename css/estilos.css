@@ -356,10 +356,8 @@ html {
 } */
 
 #imgdoctoraI :hover{
-    animation-name: agrandar;
-    
-    animation-duration: 1.5s; 
-    animation-timing-function: ease-out; 
+    animation: agrandar 2s forwards ease;
+    /*animation-duration: 0.7s; */
 }
 
 /* #imgdoctoraI h5{
@@ -389,7 +387,7 @@ html {
     }
     100% {
         /*transform: scale(1.5);*/
-        border-radius: 10px , 10px , 0px , 0px;
+        border-radius: 120px 120px 0px 0px;
         background-color: #FEDEDC;
         width: 50%;
         
