@@ -369,7 +369,7 @@ html {
 .profesionales_img img{
     width: 350px;
     padding-bottom: 10px;
-    
+    border-radius: 50%;
 }
 
 #doctora1-nombre{
@@ -433,6 +433,16 @@ html {
     animation-name: disminuir-imagen;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+}
+
+#imgdoctora1 img{
+    background: rgba(254, 222, 220, 0.7); 
+    box-shadow: 5px 5px 18px rgba(254, 222, 220, 1);
+}
+
+#imgdoctora2 img{
+    background:rgba(195, 236, 236, 0.7);
+    box-shadow: 5px 5px 18px rgba(195, 236, 236, 1);
 }
 
 #imgdoctora1:hover{
