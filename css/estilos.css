@@ -722,6 +722,10 @@ html {
         text-align: center;
     }
 
+}
 
-
+@media (min-width: 1360px){
+    #nosotros{
+        height: 80vh;
+    }
 }
