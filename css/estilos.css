@@ -351,43 +351,15 @@ html {
 .profesionales_img{
     display: flex;
     justify-content:center;
-<<<<<<< Updated upstream
-    padding: 50px;
-=======
     
     align-items: center;
     
->>>>>>> Stashed changes
-}
-/* 
- #imgdoctoraI{
-    display: flex;
-    justify-content:center;
-}  */
-
-<<<<<<< Updated upstream
-/* #imgdoctoraI :hover{
-    background-color: #FEDEDC;
-    border-radius: 10px , 10px , 0px , 0px;
-} */
-
-#imgdoctoraI h5{
-    font-size: 20px;
-    background-color: #FEDEDC;
-    border-radius: 15px;
-    padding: 10px;
-    margin-right: 10px;
 }
 
-#imgdoctora h5{
-    font-size: 20px;
-    background-color: #FEDEDC;
-    border-radius: 15px;
-    padding: 10px;
-    margin-left: 10px;
-=======
 
-#imgdoctoraI :hover{
+
+
+#imgdoctoraI:hover{
     animation-name: agrandar ;
     animation-duration: 0.7s; 
     
@@ -406,7 +378,6 @@ html {
         padding: 50px;
         
     }
->>>>>>> Stashed changes
 }
     
 
