@@ -360,6 +360,11 @@ html {
     padding-bottom: 10px;
 }
 
+#doctora1{
+    clip-path: circle(200px at 50% 50%);
+}
+
+
 #doctora1-nombre{
     background-color:#F9CAC7;
     padding: 10px;
