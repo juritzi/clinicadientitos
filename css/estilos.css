@@ -72,6 +72,56 @@ html {
     object-fit: cover;
 }
 
+
+#myCarousel-indicators button{
+    border-radius: 50% !important;
+    width: 12px !important;
+    height: 12px !important;
+    background-color: transparent;
+    border: 2px solid #FEDEDC;
+}
+
+.carousel-indicators .active{
+    background-color: #FEDEDC !important;
+}
+
+@font-face {
+    font-family: 'DKLemonYellowSun' ;
+    src: url('fonts/DKLemonYellowSun.otf');
+}
+
+
+#fontcarousel1{
+    font-family: 'DKLemonYellowSun';   
+    display: flex;
+    align-self: baseline;
+    justify-content: flex-end;
+    color: black;
+    height: 400px;
+}
+
+#fontcarousel2{
+    font-family: 'DKLemonYellowSun';
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    color: #FEDEDC;
+    align-content: center;
+    height: 400px;
+
+    
+}
+#fontcarousel3{
+    font-family: 'DKLemonYellowSun';
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    color: black;
+    height: 400px;
+
+}
+
+
 /* ESTILOS DE LAS SECCIONES */
 
 .seccion{
@@ -219,7 +269,7 @@ html {
 }
 
 .servicio h3{
-    font-size: large;
+    font-size: small;
     padding: 30px;
     font-weight:600;
 }
@@ -308,12 +358,139 @@ html {
 
 #profesionales{
     width: 100%;
+    height: 100%;
 }
+
+.profesionales_img{
+    display: flex;
+}
+
+.profesionales_img img{
+    width: 360px;
+    padding-bottom: 10px;
+    
+}
+
+#doctora1-nombre{
+    background-color:#F9CAC7;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+
+#doctora2-nombre{
+    background-color:#42BABFD9;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+
+@keyframes transformar-texto {
+    50%{
+        position: relative;
+        bottom: 0px
+    }
+    100%{
+        background-color: transparent;
+        position: relative;
+        bottom: 20px;
+    }
+}
+
+@keyframes disminuir-imagen {
+    100%{
+        width: 200px;
+    }
+    
+}
+
+.profesional-perfil:hover #doctora1-nombre{
+    animation-name: transformar-texto;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.profesional-perfil:hover #doctora2-nombre{
+    animation-name: transformar-texto;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.profesional-perfil:hover #doctora1{
+    animation-name: disminuir-imagen;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.profesional-perfil:hover #doctora2{
+    animation-name: disminuir-imagen;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#imgdoctora1:hover{
+    animation-name: agrandar;
+    animation-duration: 0.7s; 
+    animation-fill-mode:forwards;    
+}
+
+#imgdoctora2:hover{
+    animation-name: agrandar2;
+    animation-duration: 0.7s; 
+    animation-fill-mode:forwards;    
+}
+
+
+.profesional-perfil{
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.profesional-texto{
+    text-align: center;
+    visibility: hidden;
+    padding: 15px;
+    font-size: 0px;
+}
+
+
+/* animacion */
+@keyframes agrandar {
+    0% {
+
+    }
+    100% {
+        /*transform: scale(1.5);*/
+        border-radius: 40% 40% 5% 5%;
+        background-color: #FEDEDC;        
+    }
+}
+    
+@keyframes agrandar2 {
+    0% {
+
+    }
+    100% {
+        /*transform: scale(1.5);*/
+        border-radius: 40% 40% 5% 5%;
+        background-color: #C3ECEC;        
+    }
+}
+
 
 /* FOOTER  */
 
 #footer{
     padding: 20px;
+    padding-right: 90px;
+    padding-left: 90px;
     background-color:#1A3B6D;
     color: #FEDEDC;
     display: flex;
@@ -323,10 +500,12 @@ html {
 
 #footer img{
     width: 60%;
+    
 }
 
 #turno img{
     width: 0px;
+    
 }
 
 #siguenos img{
@@ -375,6 +554,10 @@ html {
     
     .servicio img {
         width: 60%;
+    }
+
+    .carousel-item img{
+        height: inherit;
     }
     
 }
@@ -492,5 +675,27 @@ html {
     #container-hadita{
         width: 30%;
     }
+
+
+    .carousel-item img{
+        height: inherit;
+    }
+
+    .profesionales_img{
+        display: block;
+    }
+
+    .profesionales_img img{
+        width: 250px;
+    }
+
+    .profesional-perfil{
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+
 
 }
