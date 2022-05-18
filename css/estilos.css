@@ -351,8 +351,6 @@ html {
 
 .profesionales_img{
     display: flex;
-    justify-content:center;
-    align-content: center;
 }
 
 .profesionales_img img{
@@ -447,7 +445,7 @@ html {
     text-align: center;
     visibility: hidden;
     padding: 15px;
-    
+    font-size: 0px;
 }
 
 
@@ -544,6 +542,10 @@ html {
     
     .servicio img {
         width: 60%;
+    }
+
+    .carousel-item img{
+        height: inherit;
     }
     
 }
@@ -661,5 +663,27 @@ html {
     #container-hadita{
         width: 30%;
     }
+
+
+    .carousel-item img{
+        height: inherit;
+    }
+
+    .profesionales_img{
+        display: block;
+    }
+
+    .profesionales_img img{
+        width: 250px;
+    }
+
+    .profesional-perfil{
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+
 
 }
