@@ -375,7 +375,8 @@ html {
         /*transform: scale(1.5);*/
         border-radius: 120px 120px 0px 0px;
         background-color: #FEDEDC;
-        padding: 50px;
+        
+        width: 30%;
         
     }
 }
