@@ -37,13 +37,6 @@ hadita.addEventListener('mouseleave', () =>{
     botonDeWhatsApp.style.visibility = 'hidden';  
 })
 
-hadita.addEventListener('click', () =>{
-    if (botonDeWhatsApp.style.visibility = 'visible'){
-        botonDeWhatsApp.style.visibility = 'hidden';  
-    } else {
-        botonDeWhatsApp.style.visibility = 'visible';  
-    }
-});
 
 // Animacion para secciond e profesionales
 const profesionalImagenContainer = document.querySelectorAll('.profesional-perfil');
