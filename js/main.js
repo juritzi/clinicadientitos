@@ -2,6 +2,8 @@
 const botonesDelNavegador = document.querySelectorAll(".nav-link");
 let secciones = document.querySelectorAll(".seccion");
 const hadita = document.getElementById('container-hadita')
+const botonDeWhatsApp = document.getElementById('boton-whatsapp-hadita');
+
 
 window.addEventListener('scroll', () =>{
     let posicionScroll = window.scrollY; 
@@ -22,12 +24,12 @@ window.addEventListener('scroll', () =>{
         botonesDelNavegador.forEach(e => e.classList.remove('active'))
         botonesDelNavegador[4].classList.add('active')
         hadita.style.visibility = 'hidden';  
+        botonDeWhatsApp.style.visibility = 'hidden';  
     } 
 })
 
 // Para animar al botón del hadita
 
-const botonDeWhatsApp = document.getElementById('boton-whatsapp-hadita');
 
 hadita.addEventListener('mouseover', () =>{
     botonDeWhatsApp.style.visibility = 'visible';  
